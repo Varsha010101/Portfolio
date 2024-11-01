@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
-import navIcon1 from '../images/nav-icon1.svg';
-import navIcon2 from '../images/nav-icon2.svg';
-import navIcon3 from '../images/nav-icon3.svg';
+import navIcon1 from './images/nav-icon1.svg';
+import navIcon2 from './images/nav-icon2.svg';
+import navIcon3 from './images/nav-icon3.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
     BrowserRouter as Router

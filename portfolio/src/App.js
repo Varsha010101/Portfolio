@@ -6,6 +6,7 @@ import { Banner } from "./Banner";
 import { Skills } from "./skills";
 import { Contact } from "./Contact";
 import {CodingProfilesDashboard} from "./Profile";
+import {CertificateSection} from "./cert";
 function App() {
     return (
         <div className="App">
@@ -13,6 +14,7 @@ function App() {
             <Banner/>
             <Skills/>
             <CodingProfilesDashboard/>
+            <CertificateSection/>
             <Contact/>
         </div>
     );

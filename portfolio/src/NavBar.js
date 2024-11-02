@@ -54,13 +54,12 @@ export const NavBar = () => {
                                 Coding Profiles
                             </Nav.Link>
                             <Nav.Link
-                                href="#certification"
-                                className={activeLink === 'certification' ? 'active navbar-link' : 'navbar-link'}
-                                onClick={() => onUpdateActiveLink('certification')}
+                                href="#certificates"  // Update href to match the section ID
+                                className={activeLink === 'certificates' ? 'active navbar-link' : 'navbar-link'}
+                                onClick={() => onUpdateActiveLink('certificates')}
                             >
                                 Certifications
                             </Nav.Link>
-
                         </Nav>
                         <span className="navbar-text">
                             <div className="social-icon">

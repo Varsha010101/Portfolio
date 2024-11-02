@@ -57,7 +57,7 @@ export const Contact = () => {
 
     return (
         <div
-            className="fixed right-5 bottom-5 flex items-center justify-center"
+            className="flex items-center justify-center h-screen"
             id="connect"
             style={{ marginTop: '100px' }} // Add top margin here
         >

@@ -5,14 +5,14 @@ import { NavBar } from "./NavBar";
 import { Banner } from "./Banner";
 import { Skills } from "./skills";
 import { Contact } from "./Contact";
-// {CodingProfilesDashboard} from "./Profile";
+import {CodingProfilesDashboard} from "./Profile";
 function App() {
     return (
         <div className="App">
             <NavBar />
             <Banner/>
             <Skills/>
-
+            <CodingProfilesDashboard/>
             <Contact/>
         </div>
     );

@@ -10,11 +10,7 @@ export const Skills = () => {
 
     useEffect(() => {
         const onScroll = () => {
-            if (window.scrollY > 50) {
-                setScrolled(true);
-            } else {
-                setScrolled(false);
-            }
+            setScrolled(window.scrollY > 50);
         };
 
         window.addEventListener("scroll", onScroll);
@@ -38,6 +34,7 @@ export const Skills = () => {
 
     return (
         <div
+            id="skills" // ID for smooth scrolling from navbar
             className={`skills-container ${scrolled ? "scrolled" : ""}`}
             style={{
                 display: "flex",
@@ -83,9 +80,6 @@ export const Skills = () => {
                                 {skill.icon}
                             </div>
                         </div>
-                        <span style={{ marginTop: "0.5rem", fontSize: "0.8rem" }}>
-
-                        </span>
                     </motion.div>
                 ))}
             </div>

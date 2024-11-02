@@ -57,7 +57,7 @@ const CodingProfilesDashboard = () => {
     }
 
     return (
-        <div className="max-w-6xl mx-auto p-4 space-y-6 bg-black text-white">
+        <div className="max-w-6xl mx-auto p-4 space-y-6 bg-black text-white" id="profile">
             <style>
                 {`
                 .card {
@@ -169,6 +169,7 @@ const CodingProfilesDashboard = () => {
             </style>
 
             <h1 className="text-3xl font-bold mb-8">Coding Profiles</h1>
+                <br/>
 
             <div className="flex-container">
                 {/* LeetCode Section */}
@@ -205,7 +206,7 @@ const CodingProfilesDashboard = () => {
                         <ul className="list-disc pl-5 space-y-1">
                             {hackerrankData.certifications.map((cert, index) => (
                                 <li key={index} className="text-gray-300">
-                                    <a href={cert.link} className="text-white no-underline hover:underline">{cert.name}</a> {/* No underline */}
+                                    <a href={cert.link} className="text-white no-underline hover:underline">{cert.name}</a>
                                 </li>
                             ))}
                         </ul>

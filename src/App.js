@@ -14,7 +14,7 @@ function App() {
             <Banner/>
             <Skills/>
             <CodingProfilesDashboard/>
-            <CertificateSection/>
+
             <Contact/>
         </div>
     );

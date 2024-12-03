@@ -14,9 +14,9 @@ To blend creativity with technology, transforming visions into reality. Every pr
 
 ## ✨ Let’s Connect!
 
-I’d love to collaborate, chat, or share ideas. Here’s how to reach me:
+I’m eager to collaborate, discuss, or exchange ideas with you. Please reach out by visiting the Contact Us page and submitting your message through the contact form. Your thoughts and inquiries are highly valued!
 
-- **Email:** varshagupta010101@gmail.com
+
 - **GitHub:** Varsha010101
 
 Thanks for stopping by! Let’s make something amazing together! 💫
